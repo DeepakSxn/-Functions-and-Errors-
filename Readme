@@ -1,0 +1,15 @@
+#Calculator
+This Solidity program is a simple calculator contract. The purpose of this program is to demonstrate basic arithmetic operations on the Ethereum blockchain using a smart contract.
+
+##Description
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract provides a function to perform basic arithmetic operations (addition, subtraction, and multiplication) on two input numbers. It also stores the result of the last calculation.
+
+###Getting Started
+1.Specify the version of Solidity:
+  i.Ensure your Solidity compiler version is >=0.8.9.
+2.Creation of the smart contract:
+  i.Add a state variable to store the result of the last calculation.
+  ii.Implement a function to perform arithmetic operations (addition, subtraction, multiplication) based on the input operator.
+  iii.Implement a function to retrieve the last result.
+###Executing Program
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
