@@ -1,16 +1,35 @@
-#ETH + AVAX PROOF: Intermediate EVM Course
-This Solidity program is a simple Calculator contract that demonstrates basic arithmetic operations and error handling using require, assert, and revert methods. The purpose of this program is to give a basic understanding of error handling and the logic for building more complex contracts.
+Solidity Calculator Contract
 
-#Description
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has two functions: calculate and getLastResult. The calculate function performs basic arithmetic operations (addition, subtraction, multiplication) on two integers, while the getLastResult function retrieves the result of the last calculation performed. This program serves as a straightforward introduction to error handling and can be used as a stepping stone for more complex projects in the future.
+Simple Overview of Use/Purpose
+This Solidity program is a basic calculator smart contract that demonstrates fundamental arithmetic operations and error-handling mechanisms. It is designed to serve as an introductory project for developers learning to build smart contracts on the Ethereum blockchain.
 
-#Getting Started
+Description
+The Solidity Calculator contract performs basic arithmetic operations such as addition, subtraction, and multiplication on integers. The contract includes error handling using Solidity's require, assert, and revert statements to ensure valid operations and maintain data integrity. This project provides a straightforward approach to understanding error handling in Solidity, serving as a foundation for more complex contract development.
+
+Getting Started
+Installing
+To get started with this project, use Remix, an online IDE for Solidity. Remix allows you to write, compile, and deploy smart contracts directly in the browser without the need for local installation.
+
+How/where to download your program:
+
+No download is required. Access Remix IDE online at https://remix.ethereum.org.
+Any modifications needed to be made to files/folders:
+
+No modifications are necessary. You can copy the code directly into a new file within the Remix IDE.
 Executing Program
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org.
+How to run the program:
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Calculator.sol). Copy and paste the following code into the file:
+Open Remix IDE:
 
-#solidity
+Visit https://remix.ethereum.org.
+Create a New File:
+
+Click on the "+" icon in the left-hand sidebar.
+Save the file with a .sol extension (e.g., Calculator.sol).
+Copy the Code:
+
+Copy and paste the following code into the newly created file:
+solidity
 Copy code
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.9;
@@ -43,13 +62,32 @@ contract Calculator {
         return lastResult;
     }
 }
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.9" (or another compatible version), and then click on the "Compile Calculator.sol" button.
+Compile the Code:
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "Calculator" contract from the dropdown menu, and then click on the "Deploy" button.
+Click on the "Solidity Compiler" tab in the left-hand sidebar.
+Ensure the compiler version is set to 0.8.9 or another compatible version.
+Click on "Compile Calculator.sol."
+Deploy the Contract:
 
-Once the contract is deployed, you can interact with it by calling the calculate or getLastResult function. Click on the "Calculator" contract in the left-hand sidebar, and then click on the calculate function. Enter the values for num1, operation, and num2, and then click on the "transact" button to execute the function and get the result. You can also call the getLastResult function to retrieve the last calculated result.
+Navigate to the "Deploy & Run Transactions" tab.
+Select the "Calculator" contract from the dropdown menu.
+Click on the "Deploy" button.
+Interact with the Contract:
 
-#Authors
-Contributors names and contact info
+After deployment, interact with the contract by invoking the calculate or getLastResult functions.
+Input values for num1, operation, and num2 when using the calculate function, and press "transact" to execute.
+Use the getLastResult function to retrieve the last calculated result.
+Help
+Common Issues:
 
-@DeepakSxn
+Ensure that the operation string (e.g., "+", "-", "*") is correctly formatted as a single character.
+Make sure the Solidity compiler version is compatible with the code (>=0.8.9).
+Command to run if the program contains helper info:
+
+Remix IDE provides in-browser debugging and error messages to assist with common issues.
+Authors
+Contributor Name:
+
+DeepakSxn
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
